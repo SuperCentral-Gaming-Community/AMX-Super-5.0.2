@@ -1,0 +1,68 @@
+
+						Commands/Admin Levels/You should know what they do
+			 (Read this link on how to change them; http://forums.alliedmods.net/showthread.php?t=58646)
+
+
+Client Commands:
+
+say /gravity    Cmd_Gravity                
+say /alltalk    Cmd_Alltalk                
+say /spec        Cmd_Spec                    
+say /unspec        Cmd_UnSpec                
+say /admin(s)    Cmd_Admins                
+say /fixsound    Cmd_FixSound 
+
+Admin Commands:
+
+Fun Section:
+amx_heal            Cmd_Heal                    ADMIN_LEVEL_A        
+amx_armor            Cmd_Armor                    ADMIN_LEVEL_A
+amx_teleport        Cmd_Teleport                ADMIN_LEVEL_A
+amx_userorigin        Cmd_UserOrigin                ADMIN_LEVEL_A
+amx_stack            Cmd_Stack                    ADMIN_LEVEL_A
+amx_gravity            Cmd_Gravity                    ADMIN_LEVEL_A
+amx_unammo            Cmd_UnAmmo                    ADMIN_LEVEL_A
+amx_weapon(menu)    Cmd_Weapon(Menu)            ADMIN_LEVEL_C
+amx_drug            Cmd_Drug                    ADMIN_LEVEL_C
+amx_godmode            Cmd_Godmode                    ADMIN_LEVEL_C
+amx_setmoney        Cmd_SetMoney                ADMIN_LEVEL_C
+amx_noclip            Cmd_Noclip                    ADMIN_LEVEL_C
+amx_speed            Cmd_Speed                    ADMIN_LEVEL_C
+amx_revive            Cmd_Revive                    ADMIN_LEVEL_C
+amx_bury            Cmd_Bury                    ADMIN_LEVEL_B     
+amx_unbury            Cmd_Unbury                    ADMIN_LEVEL_B
+amx_disarm            Cmd_Disarm                    ADMIN_LEVEL_B
+amx_slay2            Cmd_Slay2                    ADMIN_LEVEL_B
+amx_rocket            Cmd_Rocket                    ADMIN_LEVEL_B
+amx_fire            Cmd_Fire                    ADMIN_LEVEL_B
+amx_flash            Cmd_Flash                    ADMIN_LEVEL_B
+amx_uberslap        Cmd_UberSlap                ADMIN_LEVEL_B
+amx_glow(2)            Cmd_Glow                    ADMIN_LEVEL_D
+amx_glowcolors        Cmd_GlowColors                ADMIN_LEVEL_D
+
+Serious Section:
+amx_alltalk        Cmd_AllTalk            ADMIN_LEVEL_A
+amx_extend        Cmd_Extend            ADMIN_LEVEL_A
+amx_(un)gag        Cmd_(Un)Gag            ADMIN_LEVEL_A
+amx_pass        Cmd_Pass            ADMIN_PASSWORD
+amx_nopass        Cmd_NoPass            ADMIN_PASSWORD
+admin voicecomm    Cmd_PlusAdminVoice    ADMIN_VOICE
+amx_transfer    Cmd_Transfer        ADMIN_LEVEL_D
+amx_swap        Cmd_Swap            ADMIN_LEVEL_D
+amx_teamswap    Cmd_TeamSwap        ADMIN_LEVEL_D
+amx_lock        Cmd_Lock            ADMIN_LEVEL_D
+amx_unlock        Cmd_Unlock            ADMIN_LEVEL_D
+amx_badaim        Cmd_BadAim            ADMIN_LEVEL_D
+amx_exec        Cmd_Exec            ADMIN_BAN
+amx_restart        Cmd_Restart            ADMIN_BAN
+amx_shutdown    Cmd_Restart            ADMIN_RCON
+
+Cmd manager:
+amx_reloadcmds    CmdReloadCmds    ADMIN_CVAR
+
+Super menu:
+(amx_)supermenu    'Bring up the menu for AMX Super.'
+(amx_)supermenu_edit    'Allows you to edit the values the menu displays'
+amx_reloadcmds    'Reloads all amx_super commands. (see disabled_cmds.ini)'    (This is here to rebuild the menu when commands are reloaded.)
+
+
