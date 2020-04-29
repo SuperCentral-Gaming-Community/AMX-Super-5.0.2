@@ -269,6 +269,3 @@ HandleDisabledCmd(id, const szCmd[], bool: bConsole)
 		log_amx("%L", LANG_SERVER, "AMX_SUPER_CMDMGR_DISABLED_LOG", szName, szSteamid, szCmd);
 	}
 }
-/* AMXX-Studio Notes - DO NOT MODIFY BELOW HERE
-*{\\ rtf1\\ ansi\\ deff0{\\ fonttbl{\\ f0\\ fnil Tahoma;}}\n\\ viewkind4\\ uc1\\ pard\\ lang1033\\ f0\\ fs16 \n\\ par }
-*/
