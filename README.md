@@ -1,4 +1,4 @@
-AMX SUPER 5.0.2
+AMX SUPER 5.0.2 and AMX SUPER 5.0.2c
 
  
 
