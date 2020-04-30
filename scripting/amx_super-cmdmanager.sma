@@ -44,7 +44,7 @@
  * 
  * * * * * * * * * * * * * * * * * * * * * * * * * * */
  
- #include <amxmodx>
+#include <amxmodx>
 #include <amxmisc>
 
 #pragma semicolon 1
