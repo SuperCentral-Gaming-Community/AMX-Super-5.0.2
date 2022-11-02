@@ -41,5 +41,5 @@ jobs:
       - name: Upload Artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: plugin_binaries
+          name: compiled
           path: ${{ env.ARTIFACTS_DIR }}/*
